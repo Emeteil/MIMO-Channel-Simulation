@@ -6,7 +6,7 @@ A C++ implementation of a Monte Carlo simulation to analyze the Bit Error Rate (
 
 This project simulates a complete digital communication chain for a 2x2 MIMO system. It generates random bits, modulates them using BPSK, transmits them through a simulated Rayleigh fading channel with AWGN, performs Zero-Forcing equalization to combat interference, and demodulates the signal. The core output is the calculated Bit Error Rate across a range of SNR values, which is compared to the theoretical BER for a SISO system for baseline performance understanding.
 
-## 🧩 Key Features (Реализовано)
+## 🧩 Key Features (Implemented)
 
 *   **Bit Generation:** Creates random sequences of bits for transmission.
 *   **Modulation:** Binary Phase-Shift Keying (BPSK).
